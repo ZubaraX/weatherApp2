@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/infoback"
+    android:layout_height="match_parent"
+    tools:context=".InfoActivity">
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginLeft="18dp"
+        android:src="@drawable/applogo"/>
+
+    <TextView
+        android:layout_width="1000dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="88dp"
+        android:gravity="left"
+        android:text="Weather"
+        android:textColor="#fff"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/aboutpara"
+        android:layout_width="1080dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="140dp"
+        android:text="Создавалось при поддержке: Redbull,Doshirac и тд........."
+        android:textColor="#fff"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="530dp"
+        android:gravity="left"
+        android:text="Links:"
+        android:textColor="#fff"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/GithubProfile"
+        android:layout_width="500dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="580dp"
+        android:clickable="true"
+        android:text="_/(^^)\"
+        android:textColor="#1aa7ec"
+        android:textSize="29dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/RepoLink"
+        android:layout_width="500dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="620dp"
+        android:clickable="true"
+        android:text="Влад Колыбелкин"
+        android:textColor="#1aa7ec"
+        android:textSize="29dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="500dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="688dp"
+        android:gravity="center"
+        android:text="IT-Top"
+        android:textColor="#fff"
+        android:textSize="20dp" />
+
+
+
+
+</RelativeLayout>
